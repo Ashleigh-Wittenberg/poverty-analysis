@@ -27,7 +27,7 @@ By analyzing the interplay between education attainment, regional area, and pove
 
 ![k_3_cluster](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/ae9f3b47-f701-4ee5-85f5-3c51cb33c391)
 
-  Clustering with K=3
+&emspClustering with K=3
 
 ![k_2_cluster](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/05adb7cc-aafe-4a9c-8d08-2b413a5db802)
 
