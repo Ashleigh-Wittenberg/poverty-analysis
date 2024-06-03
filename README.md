@@ -24,72 +24,60 @@ U.S. Census Bureau CSV Files: Additionally, we will utilize historical census da
 Expected Outcome:
 By analyzing the interplay between education attainment, regional area, and poverty levels, we aim to gain insights into the socio-economic factors driving poverty in the United States. The findings from this analysis could inform policy decisions aimed at reducing poverty and promoting economic equality across different demographic groups and geographical regions.
 
-
+Clustering with K=3
 ![k_3_cluster](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/ae9f3b47-f701-4ee5-85f5-3c51cb33c391)
 
-&emspClustering with K=3
-
-![k_2_cluster](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/05adb7cc-aafe-4a9c-8d08-2b413a5db802)
 
 Clustering iteration 2 with K=2
+![k_2_cluster](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/05adb7cc-aafe-4a9c-8d08-2b413a5db802)
 
-![PCA_cluster](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/75816934-39b5-4fcf-ad9e-5134e605bc87)
 
 Clustering iteration 3 with PCA
+![PCA_cluster](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/75816934-39b5-4fcf-ad9e-5134e605bc87)
 
-![best_kmeans_CM](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/355e1bde-3733-45ca-b381-7fa1cfd09110)
 
 Confusion Matrix (Logistic Regression using Kmeans labels)
+![best_kmeans_CM](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/355e1bde-3733-45ca-b381-7fa1cfd09110)
 
-
-![best_kmeans_LRM_coefficients](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/eb66691f-8841-4666-bcf3-29885ec6234c)
 
 Feature coefficients for Kmeans LRM
+![best_kmeans_LRM_coefficients](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/eb66691f-8841-4666-bcf3-29885ec6234c)
 
-
-![best_kmeans_C_Report2](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/a69836d8-f9cd-4efa-836a-a42631941544)
 
 Classification Report for Kmeans LRM
+![best_kmeans_C_Report2](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/a69836d8-f9cd-4efa-836a-a42631941544)
 
-
-![binned_sel_feat_report2](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/67c2840e-f5eb-43f0-b700-f78db57fc956)
 
 Binned Poverty LRM Report (selected features)
+![binned_sel_feat_report2](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/67c2840e-f5eb-43f0-b700-f78db57fc956)
 
-
-![binning_report2](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/96900413-a870-4933-8400-2eade8a4c898)
 
 Binned Poverty LRM (all features)
+![binning_report2](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/96900413-a870-4933-8400-2eade8a4c898)
 
-
-![NN_1_learn_curve](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/cf956de2-c578-4355-97ad-56bbabbc8e7d)
 
 Iteration 1 Neural Network Learning Curve
+![NN_1_learn_curve](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/cf956de2-c578-4355-97ad-56bbabbc8e7d)
 
-
-![NN_1_PvsA](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/2a9cf38f-61e1-46e6-a468-899c95d21037)
 
 Iteration 1 Neural Network Predicted vs Actual values
+![NN_1_PvsA](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/2a9cf38f-61e1-46e6-a468-899c95d21037)
 
-
-![NN_1_PvA_Dist](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/01da969d-f11e-4ff0-9a13-33e2ebcf4f4d)
 
 Iteration 1 Neural Network Predicted vs Actual value distribution
+![NN_1_PvA_Dist](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/01da969d-f11e-4ff0-9a13-33e2ebcf4f4d)
 
-
-![NN_2_learn_curve](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/4caacb0a-5895-4e28-8eae-07908ef6a677)
 
 Iteration 2 Neural Network Learning Curve
+![NN_2_learn_curve](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/4caacb0a-5895-4e28-8eae-07908ef6a677)
 
-
-![NN_2_PvsA](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/7af6d429-55d2-4685-962d-35bad7ccba3f)
 
 Iteration 2 Neural Network Predicted vs Actual values
+![NN_2_PvsA](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/7af6d429-55d2-4685-962d-35bad7ccba3f)
 
-
-![NN_2_PvA_Dist](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/233999a0-87f4-420f-b7fb-1b9f9f295999)
 
 Iteration 2 Neural Network Predicted vs Actual value distribution
+![NN_2_PvA_Dist](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/233999a0-87f4-420f-b7fb-1b9f9f295999)
 
 
 
