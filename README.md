@@ -46,41 +46,52 @@ Confusion Matrix (Logistic Regression using Kmeans labels)
 
 Feature coefficients for Kmeans LRM
 
+
 ![best_kmeans_C_Report2](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/a69836d8-f9cd-4efa-836a-a42631941544)
 
 Classification Report for Kmeans LRM
+
 
 ![binned_sel_feat_report2](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/67c2840e-f5eb-43f0-b700-f78db57fc956)
 
 Binned Poverty LRM Report (selected features)
 
+
 ![binning_report2](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/96900413-a870-4933-8400-2eade8a4c898)
 
 Binned Poverty LRM (all features)
+
 
 ![NN_1_learn_curve](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/cf956de2-c578-4355-97ad-56bbabbc8e7d)
 
 Iteration 1 Neural Network Learning Curve
 
+
 ![NN_1_PvsA](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/2a9cf38f-61e1-46e6-a468-899c95d21037)
 
 Iteration 1 Neural Network Predicted vs Actual values
+
 
 ![NN_1_PvA_Dist](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/01da969d-f11e-4ff0-9a13-33e2ebcf4f4d)
 
 Iteration 1 Neural Network Predicted vs Actual value distribution
 
+
 ![NN_2_learn_curve](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/4caacb0a-5895-4e28-8eae-07908ef6a677)
 
 Iteration 2 Neural Network Learning Curve
+
 
 ![NN_2_PvsA](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/7af6d429-55d2-4685-962d-35bad7ccba3f)
 
 Iteration 2 Neural Network Predicted vs Actual values
 
+
 ![NN_2_PvA_Dist](https://github.com/Ashleigh-Wittenberg/poverty-analysis/assets/152832328/233999a0-87f4-420f-b7fb-1b9f9f295999)
 
 Iteration 2 Neural Network Predicted vs Actual value distribution
+
+
 
 
 In conclusion, while our models have demonstrated a commendable level of accuracy, it's essential to recognize the nuanced nature of the data at hand. Although there appears to be a correlation between education attainment and poverty rates, it's crucial to acknowledge the multitude of other factors that can influence economic circumstances. Factors such as systemic inequalities, access to resources, and regional disparities can significantly impact poverty levels and may not be fully captured by our models. Therefore, while education attainment can provide valuable insights into socioeconomic outcomes, a comprehensive understanding of poverty requires consideration of a broader range of variables. Moving forward, it's imperative to continue refining our analyses and approaches to better account for the complexity of poverty dynamics and ensure more accurate and meaningful insights.
